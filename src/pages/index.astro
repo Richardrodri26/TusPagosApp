@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="bg-slate-900 h-screen w-full">
+		<div class="container mx-auto flex flex-col items-center justify-content">
+			<div class="flex flex-col justify-center align-items w-[90%] mx-auto">
+				<h1 class="text-center pt-10 text-blue-500 text-2xl font-bold">Tus Pagos App</h1>
+
+				<div class="flex flex-col gap-5 py-2">
+					<div class="relative text-lg bg-transparent text-white">
+						<div class="flex items-center border-b-2 border-gray-500 py-2">
+						<input class="bg-transparent border-none mr-3 px-2 leading-tight focus:outline-none" type="text" placeholder="Ingresa tu email">
+						
+						</div>
+					</div>
+
+					<div class="relative text-lg bg-transparent text-white">
+						<div class="flex items-center border-b-2 border-gray-500 py-2">
+						<input class="bg-transparent border-none mr-3 px-2 leading-tight focus:outline-none" type="text" placeholder="Ingresa tu contraseña">
+					
+						</div>
+					</div>
+					
+					</div>
+
+					<a href="/home" class=" text-center inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+						Mi botón
+					</a>
+					
+
+				</div>
+			</div>
+		</div>
+	</main>
+</Layout>

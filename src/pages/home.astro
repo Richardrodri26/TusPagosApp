@@ -1,0 +1,38 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+---
+
+
+
+<Layout title="Home">
+  <nav class="text-white">
+    <a href="/">Regresar</a>
+  </nav>
+
+	<main class="bg-slate-900 h-screen w-full flex flex-col gap-2 items-center relative">
+
+    <div class="flex flex-col  items-center mt-20">
+      <p class="text-blue-700 text-3xl font-semibold">Tu Billetera</p>
+      <h2 class="text-white font-bold text-4xl">$ 50.000,00</h2>
+    </div>
+
+    <div class="flex flex-col items-center w-[80%] mx-auto, gap-5">
+      <p class="text-blue-700 text-2xl font-semibold mb-5">Tus servicios</p>
+
+
+      <div class="px-4 py-2 bg-blue-700 rounded-md w-full">
+        <p class="text-white font-semibold">Triple AAA</p>
+        <p class="text-white opacity-75">Nueva Factura 10/07/2023</p>
+      </div>
+
+      <div class="px-4 py-2 bg-blue-700 rounded-md w-full">
+        <p class="text-white font-semibold">Air-e</p>
+        <p class="text-white opacity-75">Nueva Factura 11/07/2023</p>
+      </div>
+    </div>
+
+
+    <a href="/addService" class="py-5 px-7 bg-slate-400 text-white rounded-full text-center absolute bottom-10 right-5">+</a>
+  </main>
+</Layout>

@@ -1,0 +1,38 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+---
+
+
+
+<Layout title="Añade un nuevo servicio">
+  <nav class="text-white flex">
+    <a class="flex-0"  href="/">{"<"}</a>
+    <p class="flex-1 text-center text-blue-700 font-bold" >Añade un servicio</p>
+    <div class="flex-0" />
+  </nav>
+	<main class="bg-slate-900 h-screen w-full flex flex-col gap-2 items-center">
+
+    <div class="flex flex-col gap-5 py-2">
+      <div class="relative text-lg bg-transparent text-white">
+        <div class="flex items-center border-b-2 border-gray-500 py-2">
+        <input class="bg-transparent border-none mr-3 px-2 leading-tight focus:outline-none" type="text" placeholder="Ingresa tu email">
+        
+        </div>
+      </div>
+
+      <div class="relative text-lg bg-transparent text-white">
+        <div class="flex items-center border-b-2 border-gray-500 py-2">
+        <input class="bg-transparent border-none mr-3 px-2 leading-tight focus:outline-none" type="text" placeholder="Ingresa tu contraseña">
+      
+        </div>
+      </div>
+      
+      </div>
+
+      <a href="/home" class=" text-center inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Agregar
+      </a>
+      
+</main>
+</Layout>
