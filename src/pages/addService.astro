@@ -7,13 +7,16 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="Añade un nuevo servicio">
   <nav class="text-white flex">
-    <a class="flex-0"  href="/">{"<"}</a>
-    <p class="flex-1 text-center text-blue-700 font-bold" >Añade un servicio</p>
-    <div class="flex-0" />
+    <a href="/home" class="flex gap-5 p-5">
+      <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="white" d="M28,14H8.8l4.62-4.62C13.814,8.986,14,8.516,14,8c0-0.984-0.813-2-2-2c-0.531,0-0.994,0.193-1.38,0.58l-7.958,7.958  C2.334,14.866,2,15.271,2,16s0.279,1.08,0.646,1.447l7.974,7.973C11.006,25.807,11.469,26,12,26c1.188,0,2-1.016,2-2  c0-0.516-0.186-0.986-0.58-1.38L8.8,18H28c1.104,0,2-0.896,2-2S29.104,14,28,14z"/></svg>
+      Regresar
+    </a>
+    
   </nav>
-	<main class="bg-slate-900 h-screen w-full flex flex-col gap-2 items-center">
+	<main class="bg-slate-900 h-screen w-full flex flex-col gap-2 items-center container mx-auto">
+    <p class="text-center text-blue-700 font-bold" >Añade un servicio</p>
 
-    <div class="flex flex-col gap-5 py-2">
+    <div class="flex flex-col gap-5 py-2 lg:w-full container w-[90%] mx-auto">
       <div class="relative text-lg bg-transparent text-white">
         <div class="flex items-center border-b-2 border-gray-500 py-2">
         <input class="bg-transparent border-none mr-3 px-2 leading-tight focus:outline-none" type="text" placeholder="Ingresa tu email">
